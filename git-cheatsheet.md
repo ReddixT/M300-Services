@@ -3,23 +3,23 @@ A cheat sheet for common Git commands
 
 | Command                 | Description                      |
 | ----------------------- | -------------------------------- |
-| Branches                |                                  |
+| **Branches**            |                                  |
 | `git branch name`       | Create a new branch              |
 | `git branch -d name`    | Deletes a branch                 |
 | `git checkout name`     | Use `git switch` instead         |
 | `git merge name`        | Merge branch into current branch |
-| Pulling                 |                                  |
+| **Pulling**             |                                  |
 | `git pull`              | Update repository                |
-| Staged Changes          |                                  |
+| **Staged Changes**      |                                  |
 | `git add -A`            | Stage all files                  |
 | `git reset --hard HEAD` | Unstage and delete changes       |
-| Changing Commits        |                                  |
+| **Changing Commits**    |                                  |
 | `git commit`            | Commit + open editor for message |
-| View                    |                                  |
+| **View**                |                                  |
 | `git log`               | See commit list                  |
 | `git status`            | See status                       |
-| Stash                   |                                  |
+| **Stash**               |                                  |
 | `git stash`             | Stash staged files               |
 | `git stash pop`         | Get stashed files                |
-| Remote                  |                                  |
+| **Remote**              |                                  |
 | `git push`              | Push any changes                 |
