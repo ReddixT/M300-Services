@@ -1,4 +1,4 @@
-name: Conver README.md to PDF
+name: Convert README.md to PDF
 
 on:
   workflow_dispatch:
