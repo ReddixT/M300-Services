@@ -14,7 +14,11 @@ jobs:
         run: |-
           npm install -g md-to-pdf
           mkdir -p _output
-          md-to-pdf README.md > _output/exported_pdf.pdf
+          cat README.md | md-to-pdf > _output/exported_pdf.pdf
+          cd _output
+          echo; echo "Output Folder Listing"
+          ls
+          cd ..
       
       - uses: actions/upload-artifact@v1
         with:
