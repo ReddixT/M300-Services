@@ -2,7 +2,7 @@
 
 >Dieses Repository wird während des Moduls 300 benutzt. Sämtliche Dokumentationen sind hier zufinden.
 
-- Test
+- Testt
 - Testt
 - testt
 
