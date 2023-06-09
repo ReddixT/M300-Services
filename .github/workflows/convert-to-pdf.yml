@@ -1,4 +1,4 @@
-name: convert
+name: Conver README.md to PDF
 
 on:
   workflow_dispatch:
@@ -14,11 +14,7 @@ jobs:
         run: |-
           npm install -g md-to-pdf
           mkdir -p _output
-          cat README.md | md-to-pdf > _output/exported_pdf.pdf
-          cd _output
-          echo; echo "Output Folder Listing"
-          ls
-          cd ..
+          cat README.md | md-to-pdf > _output/README-MD.pdf
       
       - uses: actions/upload-artifact@v1
         with:
