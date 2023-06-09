@@ -1,9 +1,7 @@
 name: Docs to PDF
 
 on:
-  workflow_dispatch:
-    tags:
-        description: 'Test scenario tags'  
+  workflow_dispatch
   push:
     branches:
       - main
