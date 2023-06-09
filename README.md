@@ -3,7 +3,7 @@
 >Dieses Repository wird während des Moduls 300 benutzt. Sämtliche Dokumentationen sind hier zufinden.
 
 - Test
-- Test
+- Testt
 - testt
 
 ![Github](./images/github.png)
