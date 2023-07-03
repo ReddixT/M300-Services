@@ -15,6 +15,7 @@ jobs:
           npm install -g md-to-pdf
           mkdir -p _output
           cat README.md | md-to-pdf > _output/README-MD.pdf
+          cat ./LB2/README.md | md-to-pdf > _output/LB2-README-MD.pdf
       
       - uses: actions/upload-artifact@v1
         with:
